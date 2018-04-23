@@ -1,0 +1,16 @@
+Developed a code to randomly call on a set of inputted students and change the probability they will be called on again 
+depending on if they are present or not.
+-
+First set up the class by using the "set up class" code. With this you can input all of the classmates names as a cell array
+and name it "names2"
+Then change the name of the course to whatever you would like (right now it is Mech105)
+Then correct the save path to desired settings
+-
+Once the class is set up and saved you can now use the callstudent function simpy by inputting the previously set course name 
+choosen while setting up the cass. You can aso input how many students you would like to call on with each call (default is one)
+Then after running the function it will display a randomly choosen student and ask if the student is here with 1 as yes 
+and 2 as no and any other button as skip. 
+If the student was here their probability of being called again will be lowered, if they were not present their probability of
+being called on again will increase, and if skipped their probability remains the same.
+-
+This code was part of my contribution to another repository located here: https://github.com/sbechara/random-student-cli
