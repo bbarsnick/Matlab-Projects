@@ -1,0 +1,4 @@
+Application of Simpsons 1/3 rule and normal trapezoid rule depending on amount of inputted x values.
+Input x values in vecor format, and cooresponding y values in vector format
+The function will produce an estimation of the integral of these points over the given x value
+Error is checked by using the built in Matlab function "trapz" this code averages around a 10% true error
