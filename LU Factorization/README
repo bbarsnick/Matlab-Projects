@@ -1,0 +1,13 @@
+Performs L U decomposition on given square matrix with partial pivoting
+-
+Input:
+A = coefficient matrix
+Outputs:
+L = lower triangular matrix 
+U = upper triangular matrix 
+P = pivot matrix
+-
+Input a square matrix.
+Code will perform L U decomposition with pivoting and will output the lower triangular matrix, upper triangular matrix, 
+and pivoting matrix (which tracks which rows were pivoted)
+In the end the initial matrix multiplied by the P matrix should equal the L matrix multiplied by the U matrix
