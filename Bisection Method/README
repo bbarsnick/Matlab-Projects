@@ -1,3 +1,4 @@
+## Bisection Method
 Function that implements the bisection method to find the roots of a function to an inputted error
 -
 Inputs:
