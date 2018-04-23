@@ -1,0 +1,17 @@
+This function models the false position method which is used to estimate the roots of a given function
+-
+Inputs:
+func - the function being evaluated
+xl - the lower guess
+xu - the upper guess
+es - the desired relative error (default = 0.0001%)
+maxiter - the number of iterations desired (default = 200)
+Outputs:
+root - the estimated root location
+fx - the function evaluated at the root location
+ea - the approximate relative error 
+iter - how many iterations were performed
+-
+Input the function being evaluated along with an upper and lower bound guess that bracket the root and if wanted the desired
+error and maximum iterations.
+The estimated root location, function value at that location, error and number of iterations will be outputted.
