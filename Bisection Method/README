@@ -1,0 +1,17 @@
+Function that implements the bisection method to find the roots of a function to an inputted error
+-
+Inputs:
+func - function being evaluated
+xl - lower guess
+xu - upper guess
+es - desired relative error (default = 0.0001%)
+maxit - maximum allowable iterations (default = 50)
+Outputs:
+root - real root
+fx - function value at root
+ea - approximate relative arror
+iter - number of iterations
+-
+Enter the function you are taking the roots of and an upper and lower guess that brackets the root. Additional options are to 
+enter your desired error and maximum iterations.
+This will output the root estimate and function value at the roots estimated value, also the error and number of iterations used
